@@ -156,7 +156,7 @@ xxxx://auth#session_state=xxxx&session_token_code=xxxx&state=xxxx
 ```shell
 Wrote session_token to config.txt.
 Attempting to generate new gtoken and bulletToken...
-Wrote tokens for <アカウント名> to config.txt.
+Wrote tokens for <ニンテンドーアカウントの「おなまえ」> to config.txt.
 
 Validating your tokens... done.
 
@@ -164,6 +164,13 @@ Waiting for new battles/jobs... (checking every 5 minutes)
 Press Ctrl+C to exit. 300
 ```
 
+
+:::message alert
+
+ここで表示されている `<ニンテンドーアカウントの「おなまえ」>` はGitHub Actionsの実行ログに残ることになる。
+[ニンテンドーアカウントのプロフィール編集画面](https://accounts.nintendo.com/profile/edit)から、「おなまえ」をGitHub上で公開されてもいい名前に変更しておくこと。
+
+:::
 
 
 ### config.txtをコンテナから抽出
